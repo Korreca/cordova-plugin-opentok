@@ -1,5 +1,5 @@
 {
-  "name": "OpenTokCordovaPlugin",
+  "name": "com.tokbox.cordova.opentok",
   "version": "1.0.5",
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -36,7 +36,7 @@
   "author": "Taracque",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/Taracque/cordova-plugin-opentok/issues"
+    "url": "https://github.com/Korreca/cordova-plugin-opentok/issues"
   },
-  "homepage": "https://github.com/Taracque/cordova-plugin-opentok#readme"
+  "homepage": "https://github.com/Korreca/cordova-plugin-opentok#readme"
 }
