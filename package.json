@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Taracque/cordova-plugin-opentok.git"
+    "url": "git+https://github.com/Korreca/cordova-plugin-opentok.git"
   },
   "keywords": [
     "opentok",
