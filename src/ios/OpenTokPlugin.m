@@ -131,12 +131,12 @@
     NSString* apiKey = [command.arguments objectAtIndex:0];
     NSString* sessionId = [command.arguments objectAtIndex:1];
     
-    // NSNumber* speakerPhone = [command.arguments objectAtIndex:2];
-    // if ([speakerPhone boolValue]) {
-    //     [UIDevice currentDevice].proximityMonitoringEnabled = NO;
-    // } else {
-    //     [UIDevice currentDevice].proximityMonitoringEnabled = YES;
-    // }
+    NSNumber* speakerPhone = 1;
+    if ([speakerPhone boolValue]) {
+        [UIDevice currentDevice].proximityMonitoringEnabled = NO;
+    } else {
+        [UIDevice currentDevice].proximityMonitoringEnabled = YES;
+    }
     
     // Create audio device
     // OTDefaultAudioDevice* audioDevice = [OTDefaultAudioDevice sharedInstance];
