@@ -131,7 +131,7 @@
     NSString* apiKey = [command.arguments objectAtIndex:0];
     NSString* sessionId = [command.arguments objectAtIndex:1];
     
-    NSNumber* speakerPhone = 1;
+    NSNumber* speakerPhone = [NSNumber numberWithInt:1];
     if ([speakerPhone boolValue]) {
         [UIDevice currentDevice].proximityMonitoringEnabled = NO;
     } else {
